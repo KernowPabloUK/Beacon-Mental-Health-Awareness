@@ -18,3 +18,9 @@ The site owner wants to create a welcoming webpage that provides basic mental he
 - A grid layout for external links to mental health resources styled with Bootstrap buttons to make them stand out.
 #### Positive Affirmations
 - Use Bootstrap’s text utilities to include a section with uplifting quotes or messages to encourage users.
+
+
+ #### AI USEAGE 
+ - generate Head description and meta keywords
+ - help refine user stories
+ - generate hero image and favicon design
