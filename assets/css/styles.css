@@ -27,7 +27,7 @@ body {
     font-weight: bold;
 }
 
-.nav-item > a:hover {
+.nav-item a:hover {
     color: var(--secondary-color-highlight);
 }
 
@@ -36,7 +36,8 @@ body {
 }
 
 .dropdown-item:hover {
-    background-color: var(--secondary-color-highlight);
+    background-color: var(--secondary-color);
+    font-weight: bold;
 }
 
 /* Header Section */
@@ -46,6 +47,37 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 25% 50%;
+}
+
+.hero-text {
+    color: var(--secondary-color);
+}
+
+#affirmations-carousel p {
+    font-style: italic;
+}
+
+/* Main Section */
+.card {
+    width: 20rem;
+}
+
+.card .btn {
+    background-color: var(--primary-color);
+}
+
+.card .btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color-highlight);
+}
+
+.affirmation-text {
+    font-size: 2rem;
+}
+
+#mental-health div strong {
+    color: var(--secondary-color);
+    font-weight: bold;
 }
 
 /* Footer Section */
@@ -63,18 +95,19 @@ body {
 
 .crisis-links a {
     color: var(--primary-color);
+    font-size: larger;
 }
 
 .crisis-links a:hover {
     color: var(--primary-color-highlight);
 }
 
-.social-links > a {
+.social-links a {
     color: var(--primary-color);
     padding: 20px;
 }
 
-.social-links > a:hover {
+.social-links a:hover {
     color: var(--primary-color-highlight);
 }
 
