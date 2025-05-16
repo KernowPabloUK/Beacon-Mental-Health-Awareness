@@ -24,3 +24,4 @@ The site owner wants to create a welcoming webpage that provides basic mental he
  - generate Head description and meta keywords
  - help refine user stories
  - generate hero image and favicon design
+ - generate affirmation messages

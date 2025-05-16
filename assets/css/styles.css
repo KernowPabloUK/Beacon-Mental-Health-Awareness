@@ -4,18 +4,39 @@
     --primary-font: "Encode Sans", sans-serif;
     --secondary-font: "Nunito", sans-serif;
     --primary-color: #f0f8fa;
+    --secondary-color: #468189;
+    --primary-font-color: #000000;
+    --primary-color-highlight: #dbf1f7;
+    --secondary-color-highlight: #93d1da;
 }
 
 /* Global Styles*/
 body {
     background-color: var(--primary-color);
     font-family: var(--primary-font);
+    color: var(--primary-font-color);
 }
 
 /* Navbar Section */
 #navbar {
     background-color: var(--primary-color);
     font-size: 1.5rem;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.nav-item > a:hover {
+    color: var(--secondary-color-highlight);
+}
+
+.dropdown-menu {
+    background-color: var(--primary-color);
+}
+
+.dropdown-item:hover {
+    background-color: var(--secondary-color-highlight);
 }
 
 /* Header Section */
@@ -25,10 +46,41 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 25% 50%;
-    font-family: var(--primary-font);
+}
+
+/* Footer Section */
+#footer {
+    background-color: var(--secondary-color);
+}
+
+.contact-icon {
+    color: var(--primary-color);
+}
+
+.affirmation-icon {
+    color: var(--primary-color);
+}
+
+.crisis-links a {
+    color: var(--primary-color);
+}
+
+.crisis-links a:hover {
+    color: var(--primary-color-highlight);
+}
+
+.social-links > a {
+    color: var(--primary-color);
+    padding: 20px;
+}
+
+.social-links > a:hover {
+    color: var(--primary-color-highlight);
 }
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
-    /* Add responsive styles here */
+    .hidden-icon {
+        visibility: hidden;
+    }
 }
