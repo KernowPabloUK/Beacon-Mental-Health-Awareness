@@ -119,6 +119,10 @@ li h3 {
     font-weight: bolder;
 }
 
+#mental-health-resources img {
+    border-radius: 50%;
+}
+
 /* Footer Section */
 #footer {
     background-color: var(--secondary-color);
@@ -155,6 +159,23 @@ li h3 {
 }
 
 /* Media Queries */
+/* Extra Small Devices */
+@media screen and (max-width: 576px) {
+    #mental-health-resources img {
+    max-height: 450px;
+    max-width: 450px;
+}
+}
+
+/* Small Devices */
+@media screen and (min-width: 576px) {
+    #mental-health-resources img {
+    max-height: 540px;
+    max-width: 540px;
+}
+}
+
+/* Medium Devices */
 @media screen and (min-width: 768px) {
     .hidden-icon {
         visibility: hidden;
@@ -167,4 +188,16 @@ li h3 {
     .crisis-links {
         text-align: start;
     }
+
+    #mental-health-resources img {
+    max-height: 520px;
+}
+}
+
+/* Large Devices */
+@media screen and (min-width: 992px) {
+    #mental-health-resources img {
+    max-height: 300px;
+    max-width: 320px;
+}
 }
