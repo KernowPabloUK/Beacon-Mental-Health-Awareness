@@ -68,6 +68,10 @@ h2 {
 }
 
 /* Main Section */
+.sub-heading {
+    font-size: 2.6rem;
+}
+
 main div strong {
     color: var(--secondary-color);
     font-weight: bold;
@@ -75,10 +79,23 @@ main div strong {
 
 .card {
     width: 20rem;
+    background-color: var(--primary-color);
+}
+
+.card:hover {
+    background-color: var(--primary-color-highlight);
+    color: var(--secondary-color);
+}
+
+.card-title {
+    color: var(--secondary-color);
+    font-weight: bold;
 }
 
 .btn {
     background-color: var(--primary-color-highlight);
+    color: var(--secondary-color);
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -90,9 +107,8 @@ main div strong {
     font-size: 2rem;
 }
 
-#stress-management h5 {
-    color: var(--secondary-color);
-    font-weight: bold;
+#stress-management {
+    font-size: 1.2rem;
 }
 
 #stress-management td {
@@ -101,7 +117,7 @@ main div strong {
 
 .stress-tip {
     color: var(--secondary-color) !important;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .resource-button {
@@ -118,6 +134,7 @@ li h3 {
     color: var(--secondary-color);
     font-weight: bolder;
 }
+
 
 #mental-health-resources img {
     border-radius: 50%;
@@ -162,17 +179,17 @@ li h3 {
 /* Extra Small Devices */
 @media screen and (max-width: 576px) {
     #mental-health-resources img {
-    max-height: 450px;
-    max-width: 450px;
-}
+        max-height: 450px;
+        max-width: 450px;
+    }
 }
 
 /* Small Devices */
 @media screen and (min-width: 576px) {
     #mental-health-resources img {
-    max-height: 540px;
-    max-width: 540px;
-}
+        max-height: 540px;
+        max-width: 540px;
+    }
 }
 
 /* Medium Devices */
@@ -190,14 +207,18 @@ li h3 {
     }
 
     #mental-health-resources img {
-    max-height: 520px;
-}
+        max-height: 520px;
+    }
 }
 
 /* Large Devices */
 @media screen and (min-width: 992px) {
     #mental-health-resources img {
-    max-height: 300px;
-    max-width: 320px;
-}
+        max-height: 300px;
+        max-width: 320px;
+    }
+
+        .dropdown:hover .dropdown-menu {
+        display: block;
+        }
 }
