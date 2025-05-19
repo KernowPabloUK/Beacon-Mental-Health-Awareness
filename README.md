@@ -25,3 +25,4 @@ The site owner wants to create a welcoming webpage that provides basic mental he
  - help refine user stories
  - generate hero image and favicon design
  - generate affirmation messages
+ - generate mental health and stress management tips

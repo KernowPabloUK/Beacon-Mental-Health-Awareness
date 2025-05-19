@@ -77,11 +77,11 @@ main div strong {
     width: 20rem;
 }
 
-.card .btn {
-    background-color: var(--primary-color);
+.btn {
+    background-color: var(--primary-color-highlight);
 }
 
-.card .btn:hover {
+.btn:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color-highlight);
 }
@@ -112,6 +112,11 @@ main div strong {
 .resource-button:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color-highlight);
+}
+
+li h3 {
+    color: var(--secondary-color);
+    font-weight: bolder;
 }
 
 /* Footer Section */

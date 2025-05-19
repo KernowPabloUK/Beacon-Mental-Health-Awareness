@@ -39,24 +39,24 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-4 ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#mental-health">Mental Health</a>
+                        <a class="nav-link" href="index.html#mental-health">Mental Health</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#stress-management">Stress Management</a>
+                        <a class="nav-link" href="index.html#stress-management">Stress Management</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="resources.html" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle active" aria-current="page" href="resources.html"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Resources
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="resources.html#mental-health-resources">Mental Health
+                            <li><a class="dropdown-item" href="#mental-health-resources">Mental Health Resources</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#stress-management-resources">Stress Management
                                     Resources</a></li>
-                            <li><a class="dropdown-item" href="resources.html#stress-management-resources">Stress
-                                    Management Resources</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -130,42 +130,68 @@
 
     <!-- Main Section -->
     <main>
-        <div id="mental-health" class="container section">
-            <h2 class="mb-2">Mental Health</h2>
-            <div class="row justify-content-center text-center my-3">
-                <div class="card shadow card-sg my-3 mx-3">
-                    <img src="assets/images/practice-self-care-image.png" class="card-img-top shadow mt-2"
-                        alt="Mental Health Tip">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Practice Self-Care</h5>
-                        <p class="card-text">Take time each day to do something you enjoy, whether it's reading,
-                            walking, or listening to music. Self-care helps reduce stress and boost your mood.</p>
-                        <a href="resources.html#" class="btn shadow mt-auto">Explore this subject</a>
+        <div id="mental-health-resources" class="container section">
+            <h2>Mental Health Resources</h2>
+            <ul class="list-unstyled">
+                <li class="row justify-content-center my-4">
+                    <div class="col-lg-8">
+                        <h3 id="mhr-practice-self-care" class="display-6 section">Practice Self-Care</h3>
+                        <p>
+                            Taking care of yourself is essential for maintaining good mental health. Make time for
+                            activities that bring you joy and relaxation, such as reading, walking, listening to
+                            music,
+                            or
+                            practicing a hobby. Regular self-care can help reduce stress, boost your mood, and
+                            improve
+                            your
+                            overall well-being.
+                            <br>
+                            <a href="https://www.mind.org.uk/information-support/tips-for-everyday-living/wellbeing/wellbeing/"
+                                target="_blank" rel="noopener" class="btn shadow mt-3">Learn more about self-care at
+                                Mind
+                                UK</a>
+                        </p>
                     </div>
-                </div>
-                <div class="card shadow my-3 mx-3">
-                    <img src="assets/images/practice-mindfulness-image.png" class="card-img-top shadow mt-2"
-                        alt="Practice Mindfulness">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Practice Mindfulness</h5>
-                        <p class="card-text">Spend a few minutes each day focusing on your breath or being present in
-                            the moment. Mindfulness can help reduce anxiety and improve your overall well-being.</p>
-                        <a href="resources.html#" class="btn shadow mt-auto">Explore this subject</a>
+                    <img class="col-lg-4" src="assets/images/practice-self-care-image.png" alt="">
+                </li>
+                <li class="row justify-content-center my-4">
+                    <img class="col-lg-4" src="assets/images/practice-mindfulness-image.png" alt="">
+                    <div class="col-lg-8">
+                        <h3 id="mhr-practice-mindfulness" class="display-6 section">Practice Mindfulness</h3>
+                        <p>
+                            Mindfulness is the practice of being present and fully engaged in the current moment,
+                            without
+                            judgment. It can help reduce anxiety, improve focus, and promote emotional balance. Try
+                            simple
+                            mindfulness exercises like focusing on your breath, noticing sensations in your body, or
+                            observing your thoughts as they come and go. Even a few minutes a day can make a
+                            difference.<br>
+                            <a href="https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/"
+                                target="_blank" rel="noopener" class="btn shadow mt-3">Learn more about mindfulness at
+                                NHS</a>
+                        </p>
                     </div>
-                </div>
-                <div class="card shadow my-3 mx-3">
-                    <img src="assets/images/maintain-healthy-habits-image.png" class="card-img-top shadow mt-2"
-                        alt="Healthy Habits">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Maintain Healthy Habits</h5>
-                        <p class="card-text">Eat balanced meals, get enough sleep, and exercise regularly. Physical
-                            health and mental health are closely connected.</p>
-                        <a href="resources.html#mhr-maintain-healthy-habits" class="btn shadow mt-auto">Explore this
-                            subject</a>
+                </li>
+                <li id="mhr-maintain-healthy-habits" class="row justify-content-center my-4">
+                    <div class="col-lg-8">
+                        <h3 class="display-6 section">Maintain Healthy Habits</h3>
+                        <p>
+                            Healthy habits like eating balanced meals, getting enough sleep, and exercising regularly
+                            play a
+                            vital role in supporting your mental health. Physical activity can boost your mood and
+                            energy,
+                            while nutritious food and restful sleep help your mind and body recover from daily stress.
+                            Small, consistent changes can make a big difference over time.<br>
+                            <a href="https://www.nhs.uk/live-well/" target="_blank" rel="noopener"
+                                class="btn shadow mt-3">Learn
+                                more about healthy
+                                living at NHS Live Well</a>
+                        </p>
                     </div>
-                </div>
+                    <img class="col-lg-4" src="assets/images/maintain-healthy-habits-image.png" alt="">
+                </li>
                 <div>
-                    <h2 class="display-6 my-4 text-center affirmation-text"><strong>You deserve to feel your
+                    <h2 class="display-6 my-5 text-center affirmation-text"><strong>You deserve to feel your
                             best.</strong> Every small, healthy choice you make—whether it's
                         nourishing your body, getting restful sleep, or taking moments for self-care—is a step toward a
                         stronger, happier you. Progress isn't about perfection; it's about consistency. Keep
@@ -173,38 +199,66 @@
                         energy, balance, and self-love.
                     </h2>
                 </div>
-                <div class="card shadow my-3 mx-3">
-                    <img src="assets/images/stay-connected-image.png" class="card-img-top shadow mt-2"
-                        alt="Stay Connected">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Stay Connected</h5>
-                        <p class="card-text">Reach out to friends or family regularly. Social connections are important
-                            for emotional support and mental well-being.</p>
-                        <a href="resources.html#" class="btn shadow mt-auto">Explore this subject</a>
+                <li class="row justify-content-center my-4">
+                    <img class="col-lg-4" src="assets/images/stay-connected-image.png" alt="">
+                    <div class="col-lg-8">
+                        <h3 id="mhr-stay-connected" class="display-6 section">Stay Connected</h3>
+                        <p>
+                            Staying connected with friends, family, or your community is vital for mental well-being.
+                            Social
+                            support can help you feel understood, reduce feelings of isolation, and provide comfort
+                            during
+                            difficult times. Make an effort to reach out, share your thoughts, or simply spend time with
+                            others—even a quick message or call can make a difference.<br>
+                            <a href="https://www.mentalhealth.org.uk/explore-mental-health/a-z-topics/relationships-and-mental-health"
+                                target="_blank" rel="noopener" class="btn shadow mt-3">Learn more about the importance
+                                of
+                                connection at Mental
+                                Health Foundation</a>
+                        </p>
                     </div>
-                </div>
-                <div class="card shadow my-3 mx-3">
-                    <img src="assets/images/limit-media-consumption-image.png" class="card-img-top shadow mt-2"
-                        alt="Limit Media Consumption">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Limit Media Consumption</h5>
-                        <p class="card-text">Take breaks from news and social media if you feel overwhelmed. Protecting
-                            your mental space is important for your well-being.</p>
-                        <a href="resources.html#" class="btn shadow mt-auto">Explore this subject</a>
+                </li>
+                <li class="row justify-content-center my-4">
+                    <div class="col-lg-8">
+                        <h3 id="mhr-limit-media-consumption" class="display-6 section">Limit Media Consumption</h3>
+                        <p>
+                            Taking breaks from news and social media can help protect your mental health, especially if
+                            you
+                            feel overwhelmed by negative headlines or online discussions. Set boundaries around your
+                            screen
+                            time and choose reliable sources for information. Remember, it's okay to disconnect and
+                            focus on
+                            activities that bring you peace and joy.<br>
+                            <a href="https://www.mentalhealth.org.uk/explore-mental-health/a-z-topics/social-media-and-mental-health"
+                                target="_blank" rel="noopener" class="btn shadow mt-3">Learn more about media
+                                consumption
+                                and mental health at
+                                Mental Health Foundation</a>
+                        </p>
                     </div>
-                </div>
-                <div class="card shadow my-3 mx-3">
-                    <img src="assets/images/ask-for-support-image.png" class="card-img-top shadow mt-2"
-                        alt="Ask for Support">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Ask for Support</h5>
-                        <p class="card-text">Talking to someone you trust about your feelings can make a big difference.
-                            You are not alone, and support is available.</p>
-                        <a href="resources.html#" class="btn shadow mt-auto">Explore this subject</a>
+                    <img class="col-lg-4" src="assets/images/limit-media-consumption-image.png" alt="">
+                </li>
+                <li class="row justify-content-center my-4">
+                    <img class="col-lg-4" src="assets/images/ask-for-support-image.png" alt="">
+                    <div class="col-lg-8">
+                        <h3 id="mhr-ask-for-support" class="display-6 section">Ask for Support</h3>
+                        <p>
+                            It's okay to ask for help when you're struggling. Reach out to someone you trust, such as a
+                            friend, family member, or mental health professional. Sharing your feelings can provide
+                            relief
+                            and open the door to valuable support and guidance. Remember, you are not alone, and there
+                            are
+                            people and organizations ready to help you.<br>
+                            <a href="https://www.rethink.org/advice-and-information/living-with-mental-illness/wellbeing-support/asking-for-help/"
+                                target="_blank" rel="noopener" class="btn shadow mt-3">Learn more about asking for
+                                support
+                                at Rethink Mental
+                                Illness</a>
+                        </p>
                     </div>
-                </div>
+                </li>
                 <div>
-                    <h2 class="display-6 my-4 text-center affirmation-text"><strong>You are never alone.</strong> Your
+                    <h2 class="display-6 my-5 text-center affirmation-text"><strong>You are never alone.</strong> Your
                         friends and family care about you, and reaching out to
                         them can bring comfort, strength, and support. Connection is a powerful anchor—whether through a
                         heartfelt conversation, a shared laugh, or simply knowing that someone is there to listen. When
@@ -213,80 +267,29 @@
                         self-care.
                     </h2>
                 </div>
-                <div class="card shadow my-3 mx-3">
-                    <img src="assets/images/seek-help-when-needed-image.png" class="card-img-top shadow mt-2"
-                        alt="Seek Help">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Seek Help When Needed</h5>
-                        <p class="card-text">If you're struggling, don't hesitate to talk to a mental health
-                            professional. Asking for help is a sign of strength, not weakness.</p>
-                        <a href="resources.html#" class="btn shadow mt-auto">Explore this subject</a>
+                <li id="mhr-seek-help-when-needed" class="row justify-content-center my-4">
+                    <div class="col-lg-8">
+                        <h3 class="display-6 section">Seek Help When Needed</h3>
+                        <p>
+                            If you are struggling with your mental health, it's important to seek help from a qualified
+                            professional. Mental health professionals can provide support, guidance, and treatment
+                            tailored
+                            to your needs. You might consider speaking with your GP, a counselor, or a therapist.
+                            Remember,
+                            reaching out for help is a sign of strength, not weakness, and there are many resources
+                            available to support you on your journey to well-being.<br>
+                            <a href="https://www.nhs.uk/nhs-services/mental-health-services/" target="_blank"
+                                rel="noopener" class="btn shadow mt-3" role="button">Find NHS mental health services</a>
+                        </p>
                     </div>
-                </div>
-            </div>
-            <div class="text-center mt-5">
-                <a href="resources.html#mental-health-resources" class="btn shadow resource-button" role="button">View
-                    Mental Health Resources</a>
-            </div>
+                    <img class="col-lg-4" src="assets/images/seek-help-when-needed-image.png" alt="">
+                </li>
+            </ul>
         </div>
-        <div id="stress-management" class="container section">
-            <h2 class="mb-3">Stress Management</h2>
-            <div class="table-responsive my-3">
-                <table class="table align-start">
-                    <tbody>
-                        <tr>
-                            <td class="stress-tip"><i class="fa-solid fa-spa me-1"></i> Practice Deep Breathing</td>
-                            <td>Take slow, deep breaths to calm your mind and body. Try inhaling for four counts,
-                                holding for four, and exhaling for four.</td>
-                        </tr>
-                        <tr>
-                            <td class="stress-tip"><i class="fa-solid fa-spa me-1"></i> Take Regular Breaks</td>
-                            <td>Step away from work or screens for a few minutes. Short breaks help refresh your mind
-                                and reduce tension.</td>
-                        </tr>
-                        <tr>
-                            <td class="stress-tip"><i class="fa-solid fa-spa me-1"></i> Move Your Body</td>
-                            <td>Engage in physical activity, like walking, stretching, or dancing. Movement helps
-                                release stress and boosts your mood.</td>
-                        </tr>
-                        <tr>
-                            <td class="stress-tip"><i class="fa-solid fa-spa me-1"></i> Prioritize and Organize</td>
-                            <td>Make a to-do list and focus on one task at a time. Breaking tasks into smaller steps can
-                                make them feel more manageable.</td>
-                        </tr>
-                        <tr>
-                            <td class="stress-tip"><i class="fa-solid fa-spa me-1"></i> Connect with Others</td>
-                            <td>Talk to friends, family, or colleagues. Sharing your feelings can provide support and
-                                new perspectives.</td>
-                        </tr>
-                        <tr>
-                            <td class="stress-tip"><i class="fa-solid fa-spa me-1"></i> Try Relaxation Techniques</td>
-                            <td>Explore activities like meditation, yoga, or listening to calming music to help your
-                                mind unwind.</td>
-                        </tr>
-                        <tr>
-                            <td class="stress-tip"><i class="fa-solid fa-spa me-1"></i> Get Enough Sleep</td>
-                            <td>Aim for 7-9 hours of quality sleep each night. Good rest helps your body recover from
-                                stress.</td>
-                        </tr>
-                        <tr>
-                            <td class="stress-tip"><i class="fa-solid fa-spa me-1"></i> Limit Caffeine and Sugar</td>
-                            <td>Reduce intake of caffeine and sugary foods, which can increase feelings of anxiety and
-                                stress.</td>
-                        </tr>
-                        <tr>
-                            <td class="stress-tip"><i class="fa-solid fa-spa me-1"></i> Laugh and Have Fun</td>
-                            <td>Watch a funny video, play a game, or do something you enjoy. Laughter is a natural
-                                stress reliever.</td>
-                        </tr>
-                        <tr>
-                            <td class="stress-tip"><i class="fa-solid fa-spa me-1"></i> Seek Support When Needed</td>
-                            <td>If stress feels overwhelming, consider reaching out to a mental health professional for
-                                guidance and support.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+
+        <div id="stress-management-resources" class="container section">
+            <h2 class="mb-3">Stress Management Resources</h2>
+
             <div>
                 <h2 class="display-6 mt-4 mb-5 text-start affirmation-text">
                     <strong>You have the strength to manage stress.</strong> Each deep breath, mindful pause, and act of
@@ -294,10 +297,7 @@
                     well-being—your peace of mind matters.
                 </h2>
             </div>
-            <div class="text-center mb-5">
-                <a href="resources.html#stress-management-resources" class="btn shadow resource-button"
-                    role="button">View Stress Management Resources</a>
-            </div>
+
         </div>
     </main>
 
