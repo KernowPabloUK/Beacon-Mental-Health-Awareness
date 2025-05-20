@@ -75,7 +75,7 @@ h2 {
 
 main div strong {
     color: var(--secondary-color);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .card {
@@ -138,6 +138,15 @@ li h3 {
 
 #mental-health-resources img {
     border-radius: 50%;
+}
+
+#stress-management-resources h2
+{
+    color: var(--secondary-color);
+}
+
+.card, .btn, .card-img-top {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* Footer Section */
@@ -218,8 +227,11 @@ li h3 {
     }
 
     .dropdown-menu {
-        border-style: none;
         padding-top: 0.62rem;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
     }
 }
 

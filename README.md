@@ -26,3 +26,5 @@ The site owner wants to create a welcoming webpage that provides basic mental he
  - generate hero image and favicon design
  - generate affirmation messages
  - generate mental health and stress management tips
+ - boilerplate lists and cards for efficiency, but rewritten
+ - css and html optimisation tips/code review
