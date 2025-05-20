@@ -23,7 +23,7 @@ body {
 
 h2 {
     color: var(--secondary-color);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 /* Navbar Section */
@@ -33,7 +33,7 @@ h2 {
 }
 
 .nav-link.active {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .nav-item a:hover {
@@ -47,7 +47,7 @@ h2 {
 
 .dropdown-item:hover {
     background-color: var(--secondary-color);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 /* Header Section */
@@ -90,13 +90,13 @@ main div strong {
 
 .card-title {
     color: var(--secondary-color);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .btn {
     background-color: var(--primary-color-highlight);
     color: var(--secondary-color);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .btn:hover {
@@ -118,7 +118,7 @@ main div strong {
 
 .stress-tip {
     color: var(--secondary-color) !important;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 .resource-button {
@@ -133,7 +133,7 @@ main div strong {
 
 li h3 {
     color: var(--secondary-color);
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 #mental-health-resources img {
@@ -159,7 +159,7 @@ li h3 {
 
 .crisis-links a {
     color: var(--primary-color);
-    font-size: larger;
+    font-size: 1.22rem;
 }
 
 .crisis-links a:hover {
@@ -179,16 +179,14 @@ li h3 {
 /* Extra Small Devices */
 @media screen and (max-width: 576px) {
     #mental-health-resources img {
-        max-height: 450px;
-        max-width: 450px;
+        object-fit: cover;
     }
 }
 
 /* Small Devices */
 @media screen and (min-width: 576px) {
     #mental-health-resources img {
-        max-height: 540px;
-        max-width: 540px;
+        object-fit: cover;
     }
 }
 
@@ -208,6 +206,7 @@ li h3 {
 
     #mental-health-resources img {
         max-height: 520px;
+        max-width: 520px;
     }
 }
 
@@ -216,10 +215,6 @@ li h3 {
     #mental-health-resources img {
         max-height: 300px;
         max-width: 320px;
-    }
-
-    .dropdown:hover .dropdown-menu {
-        display: block;
     }
 
     .dropdown-menu {
