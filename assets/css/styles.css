@@ -140,12 +140,14 @@ li h3 {
     border-radius: 50%;
 }
 
-#stress-management-resources h2
-{
+#stress-management-resources h2 {
     color: var(--secondary-color);
 }
 
-.card, .btn, .card-img-top {
+.card,
+.btn,
+.card-img-top {
+    -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -188,6 +190,7 @@ li h3 {
 /* Extra Small Devices */
 @media screen and (max-width: 576px) {
     #mental-health-resources img {
+        -o-object-fit: cover;
         object-fit: cover;
     }
 }
@@ -195,6 +198,7 @@ li h3 {
 /* Small Devices */
 @media screen and (min-width: 576px) {
     #mental-health-resources img {
+        -o-object-fit: cover;
         object-fit: cover;
     }
 }
