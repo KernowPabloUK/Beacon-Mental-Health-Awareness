@@ -32,6 +32,11 @@ h2 {
     font-size: 1.5rem;
 }
 
+#logo {
+    height: 50px;
+    width: 50px;
+}
+
 .nav-link.active {
     font-weight: 700;
 }
@@ -66,6 +71,7 @@ h2 {
 
 #affirmations-carousel p {
     font-weight: 700;
+    color: var(--primary-color);
 }
 
 /* Main Section */
