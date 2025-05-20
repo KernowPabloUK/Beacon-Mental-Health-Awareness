@@ -42,6 +42,7 @@ h2 {
 
 .dropdown-menu {
     background-color: var(--primary-color);
+    border-radius: 0%;
 }
 
 .dropdown-item:hover {
@@ -135,7 +136,6 @@ li h3 {
     font-weight: bolder;
 }
 
-
 #mental-health-resources img {
     border-radius: 50%;
 }
@@ -218,7 +218,20 @@ li h3 {
         max-width: 320px;
     }
 
-        .dropdown:hover .dropdown-menu {
+    .dropdown:hover .dropdown-menu {
         display: block;
-        }
+    }
+
+    .dropdown-menu {
+        border-style: none;
+        padding-top: 0.62rem;
+    }
+}
+
+/* Extra Large Devices */
+@media screen and (min-width: 1200px) {
+    .dropdown-menu {
+        border-style: none;
+        padding-top: 0.74rem;
+    }
 }
