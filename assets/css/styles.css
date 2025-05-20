@@ -65,7 +65,7 @@ h2 {
 }
 
 #affirmations-carousel p {
-    font-style: italic;
+    font-weight: 700;
 }
 
 /* Main Section */
@@ -96,6 +96,7 @@ main div strong {
 .btn {
     background-color: var(--primary-color-highlight);
     color: var(--secondary-color);
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
