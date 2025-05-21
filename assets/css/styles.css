@@ -71,7 +71,7 @@ h2 {
 
 #affirmations-carousel p {
     font-weight: 700;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 /* Main Section */
@@ -113,6 +113,10 @@ main div strong {
 
 .affirmation-text {
     font-size: 2rem;
+}
+
+.mental-health-signs {
+    font-size: 1.5rem;
 }
 
 #stress-management {
