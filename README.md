@@ -43,11 +43,55 @@ AI (Copilot) was used to enhance the development process, but developmental cont
 
 Upon usage of AI for optimization and code review, the results were hit and miss, with approximately 65% of suggestions being unnecessary, creating unwanted layout changes within the site or causing issues when validating HTML with W3C, which had to be rectified.
 
-In summary, AI was a useful tool when directed at the correct job/role, but at present is not a substitute for utilizing a senior developer when conducting code reviews, as you should not insert code suggestions from AI unless you understand and can explain what the inserted code is doing.
+In summary, AI was a useful tool when directed at the correct job/role, but at present is not a substitute for utilizing a senior developer when conducting code reviews, as you should not insert code suggestions from AI unless you understand and can explain what the inserted code is doing first.
 
 ### Documents
 
 [Wireframe of initial design](<./assets/readme-documentation/Balsamiq - Beacon Mental Health Awareness.pdf>)
+
+### Testing & Validation
+
+#### Initial HTML Verification of index.html
+
+![alt text](<assets/readme-documentation/Screenshot 2025-05-20 150551.png>)
+
+The errors and warnings presented were resulting from AI optimisation and accessibility suggestions. The errors were resolved by applying ID to the < h > child of the respective divs. The warning was removed and further evidences the pitfalls that can occur when using AI and not verifying it's suggestions.
+
+#### HTML Verification of index.html post adjustments
+
+![alt text](<assets/readme-documentation/Screenshot 2025-05-20 150712.png>)
+
+#### Initial HTML Verification of resources.html
+
+![alt text](<assets/readme-documentation/Screenshot 2025-05-20 150734.png>)
+
+The errors presented, were human and part of the learning experience as the doctype seemed to have been mistakenly deleted part way through development and further emphasises the importance of testing and verification pre-deployment. The useage of a div as a direct child within an unordered list was corrected by converting to a list element with no adverse effectes to the sites appearance or performance.
+
+#### HTML Verification of resources.html post adjustments
+
+![alt text](<assets/readme-documentation/Screenshot 2025-05-20 150954.png>)
+
+#### CSS Verification of styles.css
+
+![alt text](<assets/readme-documentation/Screenshot 2025-05-20 151030.png>)
+
+#### CSS warnings present upon Verification of styles.css
+
+![alt text](<assets/readme-documentation/Screenshot 2025-05-20 151043.png>)
+
+The warnings here are not applicable as they relate to both the useage of variables so cannot be checked apart from by the site owner themselves for validity, and the useage of external libraries which came from Google so have to be trusted as correct as we cannot verify those ourselves being not the product owner.
+
+#### Lighthouse tests
+
+![alt text](<assets/readme-documentation/Screenshot 2025-05-20 155145.png>)
+
+#### WAVE accessibility tests
+
+![alt text](<assets/readme-documentation/Screenshot 2025-05-22 093636.png>)
+
+These tests were conducted throughout the development process and multiple intervals to ensure that as development progressed, there were no contrast, semantic or accessibility issues and any that presented were corrected at each stage before progressing with the development timeline.
+
+### Webpage preview
 
 #### Homepage Screenshot
 
