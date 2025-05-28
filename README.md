@@ -2,7 +2,7 @@
 
 ## Beacon | Mental Health Awareness
 
-![Responsive design preview](assets/readme-documentation/Screenshot%202025-05-28%20104107.png)
+![Responsive design preview](./assets/readme-documentation/Screenshot%202025-05-28%20104107.png)
 
 _Author: Paul Morgan_
 
@@ -58,7 +58,7 @@ In summary, AI was a useful tool when directed at the correct job/role, but at p
 
 ### Documents
 
-[Wireframe of initial design](./assets/readme-documentation/Balsamiq%20-%20Beacon%20Mental%20Health%20Awareness.pdf)
+[Link to Wireframe of initial design](./assets/readme-documentation/Balsamiq%20-%20Beacon%20Mental%20Health%20Awareness.pdf)
 
 ### Colours & Typography
 
@@ -66,13 +66,13 @@ In summary, AI was a useful tool when directed at the correct job/role, but at p
 
 I used [Coolors.co](https://coolors.co/) to curate a palette inspired by calming seas and tranquil skies. The selection emphasises soft, soothing tones to create a welcoming and peaceful atmosphere, while subtle dark accents maintain visual interest and thematic consistency. This approach ensures the colours support the site's content without overwhelming or distracting users, reinforcing the focus on mental health and well-being.
 
-![Coolors.co Colour Palette](assets/readme-documentation/Mental%20Health%20Project.png)
+![Coolors.co Colour Palette](./assets/readme-documentation/Mental%20Health%20Project.png)
 
 #### Typography
 
 I chose the following fonts from [Google Fonts](https://fonts.google.com/) to achieve a balance between clarity and approachability. The selected typefaces provide a professional appearance while maintaining a gentle, welcoming tone—supporting the site's goal of delivering important information in a manner that feels accessible and reassuring to users.
 
-![Google Font Typography](assets/readme-documentation/Screenshot%202025-05-28%20101147.png)
+![Google Font Typography](./assets/readme-documentation/Screenshot%202025-05-28%20101147.png)
 
 ### Testing & Validation
 
@@ -84,37 +84,37 @@ The errors and warnings presented were resulting from AI optimisation and access
 
 #### HTML Verification of index.html post adjustments
 
-![HTML Verification of index.html post adjustments](assets/readme-documentation/Screenshot%202025-05-20%20150712.png)
+![HTML Verification of index.html post adjustments](./assets/readme-documentation/Screenshot%202025-05-20%20150712.png)
 
 #### Initial HTML Verification of resources.html
 
-![Initial HTML Verification of resources.html](assets/readme-documentation/Screenshot%202025-05-20%20150734.png)
+![Initial HTML Verification of resources.html](./assets/readme-documentation/Screenshot%202025-05-20%20150734.png)
 
 The errors presented were human and part of the learning experience as the doctype seemed to have been mistakenly deleted part way through development and further emphasises the importance of testing and verification pre-deployment. The usage of a div as a direct child within an unordered list was corrected by converting to a list element with no adverse effects to the site's appearance or performance.
 
 #### HTML Verification of resources.html post adjustments
 
-![HTML Verification of resources.html post adjustments](assets/readme-documentation/Screenshot%202025-05-20%20150954.png)
+![HTML Verification of resources.html post adjustments](./assets/readme-documentation/Screenshot%202025-05-20%20150954.png)
 
 #### CSS Verification of styles.css
 
-![CSS Verification of styles.css](assets/readme-documentation/Screenshot%202025-05-20%20151030.png)
+![CSS Verification of styles.css](./assets/readme-documentation/Screenshot%202025-05-20%20151030.png)
 
 #### CSS warnings present upon Verification of styles.css
 
-![CSS warnings present upon Verification of styles.css](assets/readme-documentation/Screenshot%202025-05-20%20151043.png)
+![CSS warnings present upon Verification of styles.css](./assets/readme-documentation/Screenshot%202025-05-20%20151043.png)
 
 The warnings here are not applicable as they relate to both the usage of variables so cannot be checked apart from by the site owner themselves for validity, and the usage of external libraries which came from Google so have to be trusted as correct as we cannot verify those ourselves being not the product owner.
 
 #### Lighthouse tests
 
-![Lighthouse tests](assets/readme-documentation/Screenshot%202025-05-20%20155145.png)
+![Lighthouse tests](./assets/readme-documentation/Screenshot%202025-05-20%20155145.png)
 
 Performance scores could be further improved by optimizing the memory size of the Hero image. This enhancement is planned for a future update to ensure faster load times and a better user experience.
-
+s
 #### WAVE accessibility tests
 
-![WAVE accessibility tests](assets/readme-documentation/Screenshot%202025-05-22%20093636.png)
+![WAVE accessibility tests](./assets/readme-documentation/Screenshot%202025-05-22%20093636.png)
 
 These tests were conducted throughout the development process and at multiple intervals to ensure that as development progressed, there were no contrast, semantic or accessibility issues and any that presented were corrected at each stage before progressing with the development timeline.
 
