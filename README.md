@@ -151,6 +151,7 @@ These tests were conducted throughout the development process and at multiple in
 -   [Google Fonts](https://fonts.google.com/) for typography.
 -   [Coolors.co](https://coolors.co/) for palette selection.
 -   [Favicon.io](https://favicon.io/) for converting logo image to favicon.
+-   [Font Awesome](https://fontawesome.com/) for icons used within the website.
 -   [Pixelcut.ai](https://www.pixelcut.ai/) for removing the background from the logo.
 -   [Stack Overflow](https://stackoverflow.com/) for random problem solving/syntax remembrance.
 -   [Microsoft Copilot](https://copilot.microsoft.com/) for image and text generation.
