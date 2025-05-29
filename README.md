@@ -4,7 +4,7 @@
 
 ![Responsive design preview](./assets/readme-documentation/Screenshot%202025-05-28%20104107.png)
 
-_Author: Paul Morgan_
+**Author:** Paul Morgan
 
 ### Description
 
@@ -27,28 +27,28 @@ This has been built using HTML, CSS, and the Bootstrap framework, Google Fonts, 
 
 The site will be deployed using GitHub Pages using the following steps.
 
--   Visit GitHub.
--   Navigate to the [Beacon | Mental Health Awareness /// Individual Formative Assignment 1](https://github.com/KernowPabloUK/individual-formative-assignment-1) repository.
--   Click settings along the top options bar.
--   Click pages on the left hand side menu bar.
--   Under Build & Deployment section, click the dropdown button under 'Branch' that is labelled 'None' and select "Main".
--   Click Save.
--   After a short time, refresh the page and at the top of the page a new box will appear stating 'Your site is live at...'
--   Click 'Visit site' button to open the newly deployed site in a new window
+- Visit GitHub.
+- Navigate to the [Beacon | Mental Health Awareness /// Individual Formative Assignment 1](https://github.com/KernowPabloUK/individual-formative-assignment-1) repository.
+- Click settings along the top options bar.
+- Click pages on the left hand side menu bar.
+- Under Build & Deployment section, click the dropdown button under 'Branch' that is labelled 'None' and select "Main".
+- Click Save.
+- After a short time, refresh the page and at the top of the page a new box will appear stating 'Your site is live at...'
+- Click 'Visit site' button to open the newly deployed site in a new window
 
 ### How to View the Project
 
--   [View the deployed website](https://kernowpablouk.github.io/individual-formative-assignment-1/)
+- [View the deployed website](https://kernowpablouk.github.io/individual-formative-assignment-1/)
 
 ### AI Usage Within the Project
 
--   AI used to refine user stories into tasks and acceptance criteria.
--   AI used to generate all images and logo design.
--   AI used to generate affirmation message text throughout the site, Mental Health and Stress Management tips, resources, and signs on how to recognise text.
--   AI used to generate description and meta keywords for SEO within <head>.
--   AI used to generate boilerplate lists and cards for efficiency.
--   AI used for optimisation and accessibility suggestions.
--   AI used for CSS & HTML code review.
+- AI used to refine user stories into tasks and acceptance criteria.
+- AI used to generate all images and logo design.
+- AI used to generate affirmation message text throughout the site, Mental Health and Stress Management tips, resources, and signs on how to recognise text.
+- AI used to generate description and meta keywords for SEO within "< head >".
+- AI used to generate boilerplate lists and cards for efficiency.
+- AI used for optimisation and accessibility suggestions.
+- AI used for CSS & HTML code review.
 
 AI (Copilot) was used to enhance the development process, but developmental control was retained by the developer. AI was helpful in generating images and text based on appropriate prompting, and for creating boilerplates. However, boilerplates still required in-depth review by the developer to fix errors and remove additional, unnecessary classes and semantic tags. This resulted in time spent that could have been better utilised in the primary development itself.
 
@@ -112,6 +112,7 @@ The warnings here are not applicable as they relate to both the usage of variabl
 
 Performance scores could be further improved by optimizing the memory size of the Hero image. This enhancement is planned for a future update to ensure faster load times and a better user experience.
 s
+
 #### WAVE accessibility tests
 
 ![WAVE accessibility tests](./assets/readme-documentation/Screenshot%202025-05-22%20093636.png)
@@ -148,14 +149,20 @@ These tests were conducted throughout the development process and at multiple in
 
 ![Footer section screenshot with contact links](./assets/readme-documentation/Screenshot%202025-05-21%20102912.png)
 
+### Future Features
+
+- I would like to add [Bootstrap Scrollspy](https://getbootstrap.com/docs/5.3/components/scrollspy/) to the navbar so that as the user scrolls through the page, the relevant sections of the navbar highlight to show what section the user is currently in to aid accessibility (including custom styling to fit the sites theme).
+
+- Compress Image files for increased site performance
+
 ### Credits
 
--   [Google Fonts](https://fonts.google.com/) for typography.
--   [Coolors.co](https://coolors.co/) for palette selection.
--   [Favicon.io](https://favicon.io/) for converting logo image to favicon.
--   [Font Awesome](https://fontawesome.com/) for icons used within the website.
--   [Pixelcut.ai](https://www.pixelcut.ai/) for removing the background from the logo.
--   [Stack Overflow](https://stackoverflow.com/) for random problem solving/syntax remembrance.
--   [Microsoft Copilot](https://copilot.microsoft.com/) for image and text generation.
--   [Bootstrap](https://getbootstrap.com/) for the framework to be built upon.
--   [Am I Responsive](https://ui.dev/amiresponsive) for the multi device image on this README.
+- [Google Fonts](https://fonts.google.com/) for typography.
+- [Coolors.co](https://coolors.co/) for palette selection.
+- [Favicon.io](https://favicon.io/) for converting logo image to favicon.
+- [Font Awesome](https://fontawesome.com/) for icons used within the website.
+- [Pixelcut.ai](https://www.pixelcut.ai/) for removing the background from the logo.
+- [Stack Overflow](https://stackoverflow.com/) for random problem solving/syntax remembrance.
+- [Microsoft Copilot](https://copilot.microsoft.com/) for image and text generation.
+- [Bootstrap](https://getbootstrap.com/) for the framework to be built upon.
+- [Am I Responsive](https://ui.dev/amiresponsive) for the multi device image on this README.
