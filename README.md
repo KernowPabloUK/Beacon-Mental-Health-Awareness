@@ -108,10 +108,9 @@ The warnings here are not applicable as they relate to both the usage of variabl
 
 #### Lighthouse tests
 
-![Lighthouse tests](./assets/readme-documentation/Screenshot%202025-05-20%20155145.png)
+![Lighthouse tests](./assets/readme-documentation/Screenshot%202025-06-02%20091600.png)
 
 Performance scores could be further improved by optimizing the memory size of the Hero image. This enhancement is planned for a future update to ensure faster load times and a better user experience.
-s
 
 #### WAVE accessibility tests
 
