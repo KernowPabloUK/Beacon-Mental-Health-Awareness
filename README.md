@@ -2,7 +2,7 @@
 
 ![Responsive design preview](./assets/readme-documentation/Screenshot%202025-05-28%20104107.png)
 
-**Author:** Paul Morgan
+**Author:** Paul Morgan - calculatedCode
 
 ## Description
 
