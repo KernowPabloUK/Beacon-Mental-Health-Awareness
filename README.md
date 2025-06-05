@@ -1,18 +1,16 @@
-# Individual Formative Assignment 1
-
-## Beacon | Mental Health Awareness
+# Beacon | Mental Health Awareness
 
 ![Responsive design preview](./assets/readme-documentation/Screenshot%202025-05-28%20104107.png)
 
 **Author:** Paul Morgan
 
-### Description
+## Description
 
 The purpose of this website is to allow external users to access accessible, beginner-friendly information on mental health and stress management and recognise the signs in others requiring support. As a site owner, the site is designed to be welcoming and calming with an organised layout to assist external users' usage.
 
 This has been built using HTML, CSS, and the Bootstrap framework, Google Fonts, and Font Awesome icons. Excluding items listed below (AI Usage Within the Project), all code/work is my own with no external sources.
 
-### Features
+## Features
 
 1. Navigation
 2. Mental Health section
@@ -23,7 +21,7 @@ This has been built using HTML, CSS, and the Bootstrap framework, Google Fonts, 
 5. Contact section
 6. Footer
 
-### Deployment Procedure
+## Deployment Procedure
 
 The site will be deployed using GitHub Pages using the following steps.
 
@@ -36,11 +34,11 @@ The site will be deployed using GitHub Pages using the following steps.
 - After a short time, refresh the page and at the top of the page a new box will appear stating 'Your site is live at...'
 - Click 'Visit site' button to open the newly deployed site in a new window
 
-### How to View the Project
+## How to View the Project
 
 - [View the deployed website](https://kernowpablouk.github.io/individual-formative-assignment-1/)
 
-### AI Usage Within the Project
+## AI Usage Within the Project
 
 - AI used to refine user stories into tasks and acceptance criteria.
 - AI used to generate all images and logo design.
@@ -56,7 +54,7 @@ Upon usage of AI for optimisation and code review, the results were hit and miss
 
 In summary, AI was a useful tool when directed at the correct job/role, but at present is not a substitute for utilising a senior developer when conducting code reviews, as you should not insert code suggestions from AI unless you understand and can explain what the inserted code is doing first.
 
-### Documents
+## Documents
 
 [Link to Wireframe of initial design](./assets/readme-documentation/Balsamiq%20-%20Beacon%20Mental%20Health%20Awareness.pdf)
 
