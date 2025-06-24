@@ -26,7 +26,7 @@ This has been built using HTML, CSS, and the Bootstrap framework, Google Fonts, 
 The site will be deployed using GitHub Pages using the following steps.
 
 - Visit GitHub.
-- Navigate to the [Beacon | Mental Health Awareness /// Individual Formative Assignment 1](https://github.com/KernowPabloUK/individual-formative-assignment-1) repository.
+- Navigate to the [Beacon | Mental Health Awareness](https://github.com/KernowPabloUK/Beacon-Mental-Health-Awareness) repository.
 - Click settings along the top options bar.
 - Click pages on the left hand side menu bar.
 - Under Build & Deployment section, click the dropdown button under 'Branch' that is labelled 'None' and select "Main".
@@ -36,7 +36,7 @@ The site will be deployed using GitHub Pages using the following steps.
 
 ## How to View the Project
 
-- [View the deployed website](https://kernowpablouk.github.io/individual-formative-assignment-1/)
+- [View the deployed website](https://kernowpablouk.github.io/Beacon-Mental-Health-Awareness/)
 
 ## AI Usage Within the Project
 
